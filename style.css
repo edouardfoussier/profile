@@ -42,10 +42,6 @@ table{
   line-height: 1.6em;
 }
 
-.container{
-  width: 500px;
-  margin: 30px auto;
-}
 .card{
   background: white;
   padding: 20px;
@@ -81,7 +77,6 @@ table{
   color: white;
 }
 
-
 #img-profile{
   width: 100px;
   height: 100px;
@@ -98,3 +93,52 @@ table{
 #movies td{
   padding: 10px;
 }
+
+#page-content {
+  margin-left: 300px;
+}
+
+.container-fluid{
+  width: 90%;
+  margin: 30px auto;
+}
+
+#sidebar {
+  background-color: #DD5555;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
